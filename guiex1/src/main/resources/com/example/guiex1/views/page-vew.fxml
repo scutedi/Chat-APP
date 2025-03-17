@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiex1.controller.PageCotroller">
+   <children>
+      <Label fx:id="Name" alignment="CENTER" layoutX="244.0" layoutY="46.0" prefHeight="80.0" prefWidth="330.0" text="Label" textFill="#05b4ff">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="317.0" layoutY="139.0" prefHeight="55.0" prefWidth="184.0" text="Numar prieteni" textFill="#05b4ff">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="NumarPrieteni" alignment="CENTER" layoutX="367.0" layoutY="203.0" prefHeight="39.0" prefWidth="85.0" text="Label" textFill="#05b4ff">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

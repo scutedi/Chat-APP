@@ -1,0 +1,20 @@
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#469cb9, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.label {
+    -fx-font-size: 14px;
+    /*-fx-font-weight:bold;*/
+    -fx-text-fill: rgb(70, 156, 185);
+    -fx-effect: dropshadow( gaussian , rgb(137, 208, 232), 0,0,0,1 );
+}
+.table-row-cell:selected {
+    -fx-background-color: #5ec0e2;
+
+}
+.table-row-cell:selected .text {
+    -fx-fill: #ffffff;
+}
